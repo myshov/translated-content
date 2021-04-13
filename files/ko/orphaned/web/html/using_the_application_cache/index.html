@@ -1,44 +1,50 @@
 ---
-title: Benutzung des Application Cache
-slug: Web/HTML/Using_the_application_cache
+title: 애플리케이션 캐시 사용하기
+slug: orphaned/Web/HTML/Using_the_application_cache
 translation_of: Web/HTML/Using_the_application_cache
+original_slug: Web/HTML/Using_the_application_cache
 ---
-<h2 id="Einführung">Einführung</h2>
+<div>{{DefaultAPISidebar("App Cache")}}{{SecureContext_Header}}{{Deprecated_Header}}
+<div class="blockIndicator warning">
+<p>Using the <em>application caching</em> feature described here is at this point highly discouraged; it’s <a href="https://html.spec.whatwg.org/multipage/browsers.html#offline">in the process of being removed from the Web platform</a>. Use <a href="/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Service Workers</a> instead. In fact as of Firefox 44, when <a href="/en-US/docs/Web/HTML/Using_the_application_cache">AppCache</a> is used to provide offline support for a page a warning message is now displayed in the console advising developers to use <a href="/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Service workers</a> instead ({{bug("1204581")}}).</p>
+</div>
+</div>
 
-<p><a href="/de/docs/Web/HTML/HTML5" title="HTML/HTML5">HTML5</a> bietet einen <em>Anwendungscaching</em>-Mechanismus, welcher webbasierte Anwendungen offline nutzbar macht. Entwickler können das <strong>Application Cache</strong> (AppCache) - Interface nutzen, um Ressourcen, die der Browser cachen soll für die Offline-Nutzung verfügbar zu machen. Gecachte Anwendungen laden und arbeiten korrekt, auch wenn der User den "Neu laden" - Button des Browsers klickt.</p>
+<h2 id="소개">소개</h2>
 
-<p>Die Nutzung des Application Cache ermöglicht einer Anwendung folgende Vorteile: </p>
+<p><a href="/en-US/docs/HTML/HTML5" title="HTML/HTML5">HTML5</a> 는 웹기반의 애플리케이션들이 오프라인에서도 실행되도록 해주는 애플리케이션 캐시 메카니즘을 제공한다. 개발자는 브라우저에 캐시되어 오프라인 사용자가 사용할 수 있도록 자원을 지정하기 위하여 애플리케이션 캐시(앱 캐시) 인터페이스를 사용할 수 있다. 캐시된 애플리케이션은 사용자가 오프라인 상태에서 새로고침을 클릭할 때 올바르게 불러와서 작동한다.</p>
+
+<p>애플리케이션 캐시를 사용하는 것은 애플리케이션에 다음과 같은 이익을 줍니다:</p>
 
 <ul>
- <li>Offline surfen: Nutzer können durch eine Seite navigieren wenn sie offline sind.</li>
- <li>Geschwindigkeit: Gecachte Ressourcen sind lokal und laden daher schneller.</li>
- <li>Verminderte Serverlast: Der Browser lädt nur die Ressourcen vom Server, die sich geändert haben.</li>
+ <li>오프라인 브라우징: 유저들은 오프라인에서도 사이트를 탐색할 수 있습니다.</li>
+ <li>속도: 로컬에 리소스들을 캐싱함으로서, 로딩속도를 향상시킬 수 있습니다.</li>
+ <li>서버 부하 감소: 브라우저는 서버에서 변경된 리소스들만 다운로드합니다.</li>
 </ul>
 
-<h2 id="Wie_der_AppCache_funktioniert">Wie der AppCache funktioniert</h2>
+<h2 id="애플리케이션_캐시의_작동_방식">애플리케이션 캐시의 작동 방식</h2>
 
-<h3 id="Aktivieren_des_AppCaches">Aktivieren des AppCaches</h3>
+<h3 id="애플리케이션_캐시_활성화_하기">애플리케이션 캐시 활성화 하기</h3>
 
-<p>Zum Aktivieren des ApplicationCaches für eine App muss das {{htmlattrxref("manifest", "html")}}-Attribute in das {{HTMLElement("html")}}-Element auf allen Seiten der App eingebunden werden, wie folgendes Beispiel zeigt:</p>
+<p>애플리케이션에서 애플리케이션 캐시를 활성화 하기 위해서, 먼저 당신의 애플리케이션의 페이지들의 {{HTMLElement("html")}} 엘리먼트에 {{htmlattrxref("manifest", "html")}} 속성을 추가할 필요가 있습니다:</p>
 
 <div style="overflow: hidden;">
 <pre class="brush: html">&lt;html manifest="example.appcache"&gt;
   ...
-&lt;/html&gt;
-</pre>
+&lt;/html&gt;</pre>
 </div>
 
-<p>Das Manifest-Attribut verweist auf eine <strong>cache manifest</strong>-Datei, die als Textdatei alle Ressourcen (Dateien) auflistet, die der Browser innerhalb der App cachen soll.</p>
+<p><code>manifest</code> 속성은 <strong>캐시 매니페스트</strong> 파일을 가르키며, 이는 브라우져가 당신의 애플리케이션을 위해 캐싱할 리소스(파일들)의 리스트인 텍스트 파일입니다.</p>
 
-<p>Sie sollten das <code>manifest</code>-Attribute auf jeder Seite Ihrer App einbinden, die zwischengespeichert werden soll. Der Browser speichert keine Seiten die nicht das <code>manifest</code>-Attribute besitzen, außer manche Seiten sind explizit in der manifest-Datei beschrieben. Sie müssen nicht alle Dateien einzeln in die manifest-Datei schreiben die gespeichert werden sollen, der Browser fügt jede Seite indirekt hinzu die der Benutzer besucht und die, die das <code>manifest</code>-Attribute enthalten.</p>
+<p>당신은 반드시 <code>manifest</code> 속성을 당신 애플리케이션의 캐싱하길 원하는 모든 페이지마다 포함시켜야합니다. The browser does not cache pages that do not contain the <code>manifest</code>attribute, unless such pages are explicitly listed in the manifest file itself. You do not need to list all the pages you want cached in the manifest file, the browser implicitly adds every page that the user visits and that has the <code>manifest</code> attribute set to the application cache.</p>
 
-<p>Manche Browser (z.B. Firefox) zeigen eine Benachrichtigung an, dass ein entsprechender App-Cache verwendet wird, wenn ein Benutzer die App das erste Mal besucht. Die Benachrichtigungsleiste zeigt dann in etwa folgendes an:</p>
+<p>몇몇 브라우저들은(e.g., Firefox) 애플리케이션 캐시를 사용하는 애플리케이션을 처음 로드할 때 알림을 띄웁니다. 알림은 다음과 같은 메시지를 표시합니다:</p>
 
-<p style="margin-left: 40px;">Die Webseite (<code>www.example.com</code>) möchte gerne Daten zur Offline-Benutzung abspeichern. [Erlauben] [Nie für diese Seite] [Nicht jetzt]</p>
+<p style="margin-left: 40px;">해당 사이트가 (<code>www.example.com</code>) 오프라인 사용을 위해 데이터를 저장을 요청합니다. [예] [이 사이트에서 사용안함] [나중에]</p>
 
 <p>The term "offline(-enabled) applications" sometimes refers specifically to applications that the user has allowed to use offline capabilities.</p>
 
-<h3 id="Loading_documents">Loading documents</h3>
+<h3 id="documents_불러오기">documents 불러오기</h3>
 
 <p>The use of an application cache modifies the normal process of loading a document:</p>
 
@@ -73,9 +79,11 @@ translation_of: Web/HTML/Using_the_application_cache
 
 <p>Prior to Firefox 11, neither Tools -&gt; Clear Recent History nor Tools -&gt; Options -&gt; Advanced -&gt; Network -&gt; Offline data -&gt; Clear Now cleared the offline cache. This has been fixed.</p>
 
+<p>On Linux, you can find the setting at Edit &gt; Preferences &gt; Advanced &gt; Network &gt; Offline Web Content and User Data</p>
+
 <p>See also <a href="/en-US/docs/DOM/Storage#Storage_location_and_clearing_the_data" title="DOM/Storage#Storage location and clearing the data">clearing the DOM Storage data</a>.</p>
 
-<p>Application caches can also become obsolete. If an application's manifest file is removed from the server, the browser removes all application caches that use that manifest, and sends an "obsolete" event to the <code>applicationCache</code> object. This sets the application cache's state to <code>OBSOLETE</code>.</p>
+<p>Application caches can also become obsolete. If an application's manifest file is removed from the server, the browser removes all application caches that use that manifest, and sends an "obsoleted" event to the <code>applicationCache</code> object. This sets the application cache's state to <code>OBSOLETE</code>.</p>
 
 <h2 id="The_cache_manifest_file">The cache manifest file</h2>
 
@@ -159,7 +167,7 @@ FALLBACK:
  <dt>Blank line</dt>
  <dd>You may use blank lines comprised of zero or more space and tab characters.</dd>
  <dt>Comment</dt>
- <dd>Comments consist of zero or more tabs or spaces followed by a single <code>#</code> character, followed by zero or more characters of comment text. Comments may only be used on their own lines, and cannot be appended to other lines. This means that you cannot specify fragment identifiers.</dd>
+ <dd>Comments consist of zero or more tabs or spaces followed by a single <code>#</code> character, followed by zero or more characters of comment text. Comments may only be used on their own lines (after the initial <span style='font-family: "Courier New","Andale Mono",monospace; font-size: 14px; line-height: normal;'>CACHE MANIFEST </span><span style="font-size: 14px; line-height: 1.572;">line), and cannot be appended to other lines. This means that you cannot specify fragment identifiers.</span></dd>
  <dt>Section header</dt>
  <dd>Section headers specify which section of the cache manifest is being manipulated. There are three possible section headers:</dd>
 </dl>
@@ -299,64 +307,22 @@ if(window.applicationCache.status === window.applicationCache.UPDATEREADY) {
   <code>ExpiresByType text/cache-manifest "access plus 0 seconds"</code></li>
 </ul>
 
-<h2 id="Browser_compatibility">Browser compatibility</h2>
+<h2 id="브라우저_호환성">브라우저 호환성</h2>
 
-<div>{{CompatibilityTable}}</div>
 
-<div id="compat-desktop">
-<table class="compat-table">
- <tbody>
-  <tr>
-   <th>Feature</th>
-   <th>Chrome</th>
-   <th>Firefox (Gecko)</th>
-   <th>Internet Explorer</th>
-   <th>Opera</th>
-   <th>Safari</th>
-  </tr>
-  <tr>
-   <td>Basic support</td>
-   <td>4.0</td>
-   <td>3.5</td>
-   <td>10.0</td>
-   <td>10.6</td>
-   <td>4.0</td>
-  </tr>
- </tbody>
-</table>
-</div>
 
-<div id="compat-mobile">
-<table class="compat-table">
- <tbody>
-  <tr>
-   <th>Feature</th>
-   <th>Android</th>
-   <th>Firefox Mobile (Gecko)</th>
-   <th>IE Mobile</th>
-   <th>Opera Mobile</th>
-   <th>Safari Mobile</th>
-  </tr>
-  <tr>
-   <td>Basic support</td>
-   <td>2.1</td>
-   <td>{{CompatVersionUnknown}}</td>
-   <td>{{CompatNo}}</td>
-   <td>11.0</td>
-   <td>3.2</td>
-  </tr>
- </tbody>
-</table>
-</div>
+<p>{{Compat("html.elements.html.manifest")}}</p>
 
-<p>Note: Versions of Firefox prior to 3.5 ignore the <code>NETWORK </code>and <code>FALLBACK </code>sections of the cache manifest file.</p>
-
-<h2 id="See_also">See also</h2>
+<h2 id="더_알아보기">더 알아보기</h2>
 
 <ul>
  <li><a href="http://www.html5rocks.com/en/tutorials/appcache/beginner/" title="http://www.html5rocks.com/en/tutorials/appcache/beginner/">HTML5Rocks - A Beginner's Guide to Using the Application Cache</a></li>
  <li><a href="http://appcachefacts.info/" title="http://appcachefacts.info/">appcachefacts.info</a> - detailed information on AppCache idiosyncrasies</li>
- <li><a href="http://alistapart.com/article/application-cache-is-a-douchebag" title="http://alistapart.com/article/application-cache-is-a-douchebag">A List Apart: Application Cache is a Douchebag</a></li>
+ <li><a href="http://alistapart.com/article/application-cache-is-a-douchebag" title="http://alistapart.com/article/application-cache-is-a-douchebag">A List Apart: Application Cache is a Douchebag</a>
+  <ul>
+   <li><a href="http://flailingmonkey.com/application-cache-not-a-douchebag" title="http://flailingmonkey.com/application-cache-not-a-douchebag">The Application Cache is no longer a Douchebag</a> - an overview of the app cache debugging tools added in Firefox 23.</li>
+  </ul>
+ </li>
  <li><a href="http://hacks.mozilla.org/2010/01/offline-web-applications/" title="http://hacks.mozilla.org/2010/01/offline-web-applications/">offline web applications</a> at hacks.mozilla.org - showcases an offline app demo and explains how it works.</li>
  <li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/offline.html#offline" title="http://www.whatwg.org/specs/web-apps/current-work/multipage/offline.html#offline">HTML 5 working draft: Offline web applications</a></li>
  <li><a href="http://www.w3.org/TR/offline-webapps/" title="http://www.w3.org/TR/offline-webapps/">W3C Working Group Note: Offline Web Applications</a></li>
@@ -371,5 +337,3 @@ if(window.applicationCache.status === window.applicationCache.UPDATEREADY) {
  <li><a href="http://www.ibm.com/developerworks/web/library/wa-ffox3/">Get ready for Firefox 3.0 - A Web developer's guide to the many new features in this popular browser, especially the offline application features</a> (IBM developerWorks)</li>
  <li><a href="/en-US/docs/Application_cache_implementation_overview" title="/en-US/docs/Application_cache_implementation_overview">Application cache implementation overview</a></li>
 </ul>
-
-<div>{{HTML5ArticleTOC}}</div>

@@ -31023,22 +31023,6 @@
       "Breezewish"
     ]
   },
-  "Web/HTML/Using_the_application_cache": {
-    "modified": "2019-10-29T05:43:20.065Z",
-    "contributors": [
-      "7NZ",
-      "xgqfrms-GitHub",
-      "eforegist",
-      "liuzeyafzy",
-      "nianiaJR",
-      "shajiquan",
-      "hdwills",
-      "teoli",
-      "fsy0718",
-      "sunnylost",
-      "karsa.si"
-    ]
-  },
   "Web/HTTP": {
     "modified": "2020-08-27T09:08:49.830Z",
     "contributors": [
@@ -50797,6 +50781,22 @@
       "Pada",
       "peonyriver",
       "FredWe"
+    ]
+  },
+  "orphaned/Web/HTML/Using_the_application_cache": {
+    "modified": "2019-10-29T05:43:20.065Z",
+    "contributors": [
+      "7NZ",
+      "xgqfrms-GitHub",
+      "eforegist",
+      "liuzeyafzy",
+      "nianiaJR",
+      "shajiquan",
+      "hdwills",
+      "teoli",
+      "fsy0718",
+      "sunnylost",
+      "karsa.si"
     ]
   }
 }

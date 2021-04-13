@@ -34808,19 +34808,6 @@
       "Marsf"
     ]
   },
-  "Web/HTML/Using_the_application_cache": {
-    "modified": "2020-11-28T04:20:35.279Z",
-    "contributors": [
-      "mfuji09",
-      "SphinxKnight",
-      "yyss",
-      "ethertank",
-      "Fajrovulpo",
-      "kohei.yoshino",
-      "maco81",
-      "Potappo"
-    ]
-  },
   "Web/HTML/microformats": {
     "modified": "2020-09-06T22:15:47.186Z",
     "contributors": [
@@ -53495,6 +53482,19 @@
     "contributors": [
       "yumetodo",
       "Marsf"
+    ]
+  },
+  "orphaned/Web/HTML/Using_the_application_cache": {
+    "modified": "2020-11-28T04:20:35.279Z",
+    "contributors": [
+      "mfuji09",
+      "SphinxKnight",
+      "yyss",
+      "ethertank",
+      "Fajrovulpo",
+      "kohei.yoshino",
+      "maco81",
+      "Potappo"
     ]
   }
 }

@@ -18195,23 +18195,6 @@
       "Montherdez"
     ]
   },
-  "Web/HTML/Using_the_application_cache": {
-    "modified": "2019-03-19T07:43:37.221Z",
-    "contributors": [
-      "pixelmin",
-      "dmoralesm",
-      "teoli",
-      "vltamara",
-      "CodeMaxter",
-      "LuisArt",
-      "FCuchietti",
-      "MPoli",
-      "hugohabel",
-      "RickieesES",
-      "inma_610",
-      "Izel"
-    ]
-  },
   "Web/HTML/Reference": {
     "modified": "2019-09-09T07:16:42.154Z",
     "contributors": [
@@ -23742,6 +23725,23 @@
     "modified": "2019-03-23T22:43:24.721Z",
     "contributors": [
       "joselix"
+    ]
+  },
+  "orphaned/Web/HTML/Using_the_application_cache": {
+    "modified": "2019-03-19T07:43:37.221Z",
+    "contributors": [
+      "pixelmin",
+      "dmoralesm",
+      "teoli",
+      "vltamara",
+      "CodeMaxter",
+      "LuisArt",
+      "FCuchietti",
+      "MPoli",
+      "hugohabel",
+      "RickieesES",
+      "inma_610",
+      "Izel"
     ]
   }
 }

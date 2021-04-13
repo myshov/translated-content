@@ -6900,21 +6900,6 @@
       "macalha"
     ]
   },
-  "Web/HTML/Using_the_application_cache": {
-    "modified": "2019-03-23T23:33:12.384Z",
-    "contributors": [
-      "Etrusco",
-      "isaiasBR",
-      "bruno-vaz",
-      "Jerffersonferreira",
-      "fabianosantos.net",
-      "wmsbill",
-      "rogeriomoraessp",
-      "teoli",
-      "ethertank",
-      "netfuzzer123"
-    ]
-  },
   "Web/HTTP": {
     "modified": "2020-09-23T19:42:27.917Z",
     "contributors": [
@@ -17366,6 +17351,21 @@
     "modified": "2019-03-23T22:59:51.382Z",
     "contributors": [
       "diegolw"
+    ]
+  },
+  "orphaned/Web/HTML/Using_the_application_cache": {
+    "modified": "2019-03-23T23:33:12.384Z",
+    "contributors": [
+      "Etrusco",
+      "isaiasBR",
+      "bruno-vaz",
+      "Jerffersonferreira",
+      "fabianosantos.net",
+      "wmsbill",
+      "rogeriomoraessp",
+      "teoli",
+      "ethertank",
+      "netfuzzer123"
     ]
   }
 }

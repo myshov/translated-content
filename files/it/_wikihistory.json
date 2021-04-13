@@ -5387,15 +5387,6 @@
       "Giona"
     ]
   },
-  "Web/HTML/Using_the_application_cache": {
-    "modified": "2019-03-23T23:28:46.240Z",
-    "contributors": [
-      "Carlo-Effe",
-      "g4b0",
-      "teoli",
-      "pastorello"
-    ]
-  },
   "Web/HTTP/Basics_of_HTTP": {
     "modified": "2020-11-30T09:32:11.577Z",
     "contributors": [
@@ -5993,6 +5984,15 @@
       "teoli",
       "jsx",
       "Federico"
+    ]
+  },
+  "orphaned/Web/HTML/Using_the_application_cache": {
+    "modified": "2019-03-23T23:28:46.240Z",
+    "contributors": [
+      "Carlo-Effe",
+      "g4b0",
+      "teoli",
+      "pastorello"
     ]
   }
 }

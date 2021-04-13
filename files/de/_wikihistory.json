@@ -7545,17 +7545,6 @@
       "spiegelp"
     ]
   },
-  "Web/HTML/Using_the_application_cache": {
-    "modified": "2019-03-23T23:31:27.651Z",
-    "contributors": [
-      "petzichen",
-      "freimuth82",
-      "fscholz",
-      "gr2m",
-      "teoli",
-      "fiona89"
-    ]
-  },
   "Web/HTTP": {
     "modified": "2020-10-17T06:15:21.236Z",
     "contributors": [
@@ -14836,6 +14825,17 @@
       "TornadoIDS",
       "fscholz",
       "Mrueegg"
+    ]
+  },
+  "orphaned/Web/HTML/Using_the_application_cache": {
+    "modified": "2019-03-23T23:31:27.651Z",
+    "contributors": [
+      "petzichen",
+      "freimuth82",
+      "fscholz",
+      "gr2m",
+      "teoli",
+      "fiona89"
     ]
   }
 }

@@ -22579,14 +22579,6 @@
       "Gucci_08_rus"
     ]
   },
-  "Web/HTML/Using_the_application_cache": {
-    "modified": "2019-04-09T18:24:32.273Z",
-    "contributors": [
-      "jwhitlock",
-      "teoli",
-      "pashak"
-    ]
-  },
   "Web/HTML/Reference": {
     "modified": "2019-09-09T07:21:34.310Z",
     "contributors": [
@@ -25987,6 +25979,14 @@
       "TaizoGem",
       "undgrnd",
       "nechehin"
+    ]
+  },
+  "orphaned/Web/HTML/Using_the_application_cache": {
+    "modified": "2019-04-09T18:24:32.273Z",
+    "contributors": [
+      "jwhitlock",
+      "teoli",
+      "pashak"
     ]
   }
 }

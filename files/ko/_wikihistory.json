@@ -10096,17 +10096,6 @@
       "moolow"
     ]
   },
-  "Web/HTML/Using_the_application_cache": {
-    "modified": "2020-10-15T21:26:42.303Z",
-    "contributors": [
-      "alattalatta",
-      "SemteulGaram",
-      "Neibce",
-      "Han_jongbae",
-      "teoli",
-      "gomdev"
-    ]
-  },
   "Web/HTTP": {
     "modified": "2020-02-05T12:20:09.075Z",
     "contributors": [
@@ -18703,6 +18692,17 @@
     "modified": "2020-10-24T00:56:18.797Z",
     "contributors": [
       "zzoPark"
+    ]
+  },
+  "orphaned/Web/HTML/Using_the_application_cache": {
+    "modified": "2020-10-15T21:26:42.303Z",
+    "contributors": [
+      "alattalatta",
+      "SemteulGaram",
+      "Neibce",
+      "Han_jongbae",
+      "teoli",
+      "gomdev"
     ]
   }
 }

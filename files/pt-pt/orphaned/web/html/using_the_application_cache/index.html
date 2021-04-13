@@ -1,19 +1,27 @@
 ---
-title: Offline resources on Firefox
-slug: Web/HTML/Using_the_application_cache
+title: Utilizar a cache de aplicação
+slug: orphaned/Web/HTML/Using_the_application_cache
 tags:
-  - Firefox 3
-  - Offline web applications
-  - 待翻譯
+  - Aplicação
+  - App
+  - Avançado
+  - Cache
+  - Guía
+  - HTML
+  - appcahe
+  - cache da aplicação
+  - cache da web
+  - web cache
 translation_of: Web/HTML/Using_the_application_cache
+original_slug: Web/HTML/Using_the_application_cache
 ---
-<div>{{DefaultAPISidebar("App Cache")}}{{deprecated_header}}</div>
-
-<div class="warning">
-<p>Using the <em>application caching</em> feature described here is at this point highly discouraged; it’s <a href="https://html.spec.whatwg.org/multipage/browsers.html#offline">in the process of being removed from the Web platform</a>. Use <a href="/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Service Workers</a> instead. In fact as of Firefox 44, when <a href="/en-US/docs/Web/HTML/Using_the_application_cache">AppCache</a> is used to provide offline support for a page a warning message is now displayed in the console advising developers to use <a href="/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Service workers</a> instead ({{bug("1204581")}}).</p>
+<div>{{DefaultAPISidebar("App Cache")}}{{SecureContext_Header}}{{Deprecated_Header}}
+<div class="blockIndicator warning">
+<p>Using the <em>application caching</em> feature described here is at this point highly discouraged; it’s <a href="https://html.spec.whatwg.org/multipage/browsers.html#offline">in the process of being removed from the Web platform</a>. Use <a href="/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Service Workers</a> instead. In fact as of Firefox 44, when <a href="/en-US/docs/Web/HTML/Using_the_application_cache">AppCache</a> is used to provide offline support for a page a warning message is now displayed in the console advising developers to use <a href="/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Service workers</a> instead ({{bug("1204581")}}).</p>
+</div>
 </div>
 
-<h2 id="Introduction">Introduction</h2>
+<h2 id="Introdução">Introdução</h2>
 
 <p><a href="/en-US/docs/HTML/HTML5">HTML5</a> provides an <em>application caching</em> mechanism that lets web-based applications run offline. Developers can use the <strong>Application Cache</strong> (<em>AppCache</em>) interface to specify resources that the browser should cache and make available to offline users. Applications that are cached load and work correctly even if users click the refresh button when they are offline.</p>
 
@@ -25,11 +33,11 @@ translation_of: Web/HTML/Using_the_application_cache
  <li>Reduced server load: the browser only downloads resources that have changed from the server.</li>
 </ul>
 
-<h2 id="How_the_application_cache_works">How the application cache works</h2>
+<h2 id="Como_é_que_funciona_a_cache_de_aplicação">Como é que funciona a cache de aplicação</h2>
 
-<h3 id="Enabling_the_application_cache">Enabling the application cache</h3>
+<h3 id="Ativar_a_cache_de_aplicação">Ativar a cache de aplicação</h3>
 
-<p>To enable the application cache for an application, you must include the {{htmlattrxref("manifest", "html")}} attribute in the {{HTMLElement("html")}} element in your application's pages, as shown in the following example:</p>
+<p>To enable the application cache for an application, you must include the {{HTMLAttrxRef("manifest", "html")}} attribute in the {{HTMLElement("html")}} element in your application's pages, as shown in the following example:</p>
 
 <pre class="brush: html">&lt;html manifest="example.appcache"&gt;
   ...
@@ -46,7 +54,7 @@ translation_of: Web/HTML/Using_the_application_cache
 
 <p>The term "offline(-enabled) applications" sometimes refers specifically to applications that the user has allowed to use offline capabilities.</p>
 
-<h3 id="Loading_documents">Loading documents</h3>
+<h3 id="Carregar_documentos">Carregar documentos</h3>
 
 <p>The use of an application cache modifies the normal process of loading a document:</p>
 
@@ -66,7 +74,7 @@ translation_of: Web/HTML/Using_the_application_cache
  <li>Once all the files have been successfully retrieved, they are moved into the real offline cache automatically, and a <code>cached</code> event is sent to the <code>applicationCache</code> object. Since the document has already been loaded into the browser from the cache, the updated document will not be rendered until the document is reloaded (either manually or programatically).</li>
 </ol>
 
-<h2 id="Storage_location_and_clearing_the_offline_cache">Storage location and clearing the offline cache</h2>
+<h2 id="Localização_do_armazenamento_e_limpeza_off-line_da_cache">Localização do armazenamento e limpeza off-line da cache</h2>
 
 <p>In Chrome you can clear the offline cache by selecting "Clear browsing data..." in the preferences or by visiting <a>chrome://appcache-internals/</a>. Safari has a similar "Empty cache" setting in its preferences but a browser restart may also be required.</p>
 
@@ -87,7 +95,7 @@ translation_of: Web/HTML/Using_the_application_cache
 
 <p>Application caches can also become obsolete. If an application's manifest file is removed from the server, the browser removes all application caches that use that manifest, and sends an "obsoleted" event to the <code>applicationCache</code> object. This sets the application cache's state to <code>OBSOLETE</code>.</p>
 
-<h2 id="The_cache_manifest_file">The cache manifest file</h2>
+<h2 id="O_ficheiro_manifest_da_cache">O ficheiro <em>manifest </em>da cache</h2>
 
 <h3 id="Referencing_a_cache_manifest_file">Referencing a cache manifest file</h3>
 
@@ -178,8 +186,8 @@ FALLBACK:
 <table class="standard-table">
  <tbody>
   <tr>
-   <th>Section header</th>
-   <th>Description</th>
+   <th>Secção cabeçalho</th>
+   <th>Descrição</th>
   </tr>
   <tr>
    <td><code>CACHE:</code></td>
@@ -199,15 +207,15 @@ FALLBACK:
 
 <dl>
  <dd>The section header line may include whitespaces, but must include the colon (<code>:</code>) in the section name.</dd>
- <dt>Section data</dt>
+ <dt>Dados da secção</dt>
  <dd>The format for lines of data varies from section to section. In the explicit (<code>CACHE:</code>) section, each line is a valid URI or IRI reference to a resource to cache (no wildcard characters are allowed in this sections). Whitespace is allowed before and after the URI or IRI on each line. In the Fallback section each line is a valid URI or IRI reference to a resource, followed by a fallback resource that is to be served up when a connection with the server cannot be made. In the network section, each line is a valid URI or IRI reference to a resource to fetch from the network (or the wildcard character <code>*</code> can be used in this section).
- <div class="note"><strong>Note: </strong>Relative URIs are relative to the cache manifest's URI, not to the URI of the document referencing the manifest.</div>
+ <div class="note"><strong>Nota: </strong>Relative URIs are relative to the cache manifest's URI, not to the URI of the document referencing the manifest.</div>
  </dd>
 </dl>
 
 <p>Cache manifest files can switch from section to section at will (each section header can be used more than once), and sections are allowed to be empty.</p>
 
-<h2 id="Resources_in_an_application_cache">Resources in an application cache</h2>
+<h2 id="Recursos_na_cache_de_aplicação">Recursos na cache de aplicação</h2>
 
 <p>An application cache always includes at least one resource, identified by URI. All resources fit into one of the following categories:</p>
 
@@ -222,13 +230,13 @@ FALLBACK:
  <dd>These are resources listed in the application's cache manifest files as fallback entries.</dd>
 </dl>
 
-<div class="note"><strong>Note:</strong> Resources can be tagged with multiple categories, and can therefore be categorized as multiple entries. For example, an entry can be both an explicit entry and a fallback entry.</div>
+<div class="note"><strong>Nota:</strong> Resources can be tagged with multiple categories, and can therefore be categorized as multiple entries. For example, an entry can be both an explicit entry and a fallback entry.</div>
 
 <p>Resource categories are described in greater detail below.</p>
 
 <h3 id="Master_entries">Master entries</h3>
 
-<p>Master entries are any HTML files that include a {{htmlattrxref("manifest","html")}} attribute in their {{HTMLElement("html")}} element. For example, let's say we have the HTML file <a href="http://www.example.com/entry.html">http://www.example.com/entry.html</a>, which looks like this:</p>
+<p>Master entries are any HTML files that include a {{HTMLAttrxRef("manifest","html")}} attribute in their {{HTMLElement("html")}} element. For example, let's say we have the HTML file <a href="http://www.example.com/entry.html">http://www.example.com/entry.html</a>, which looks like this:</p>
 
 <pre class="brush: html">&lt;html manifest="example.appcache"&gt;
   &lt;h1&gt;Application Cache Example&lt;/h1&gt;
@@ -267,7 +275,7 @@ example/bar/ example.html
 
 <p>Any request to <code><a href="http://www.example.com/example/bar/" rel="freelink">http://www.example.com/example/bar/</a></code> or any of its subdirectories and their content cause the browser to issue a network request to attempt to load the requested resource. If the attempt fails, due to either a network failure or a server error of some kind, the browser loads the file <code>example.html</code> instead.</p>
 
-<h2 id="Cache_states">Cache states</h2>
+<h2 id="Estados_da_cache">Estados da cache</h2>
 
 <p>Each application cache has a <strong>state</strong>, which indicates the current condition of the cache. Caches that share the same manifest URI share the same cache state, which can be one of the following:</p>
 
@@ -309,69 +317,13 @@ if(window.applicationCache.status === window.applicationCache.UPDATEREADY) {
   <code>ExpiresByType text/cache-manifest "access plus 0 seconds"</code></li>
 </ul>
 
-<h2 id="Browser_compatibility">Browser compatibility</h2>
+<h2 id="Compatibilidade_de_navegador">Compatibilidade de navegador</h2>
 
-<p>{{CompatibilityTable}}</p>
 
-<div id="compat-desktop">
-<table class="compat-table">
- <tbody>
-  <tr>
-   <th>Feature</th>
-   <th>Chrome</th>
-   <th>Edge</th>
-   <th>Firefox (Gecko)</th>
-   <th>Internet Explorer</th>
-   <th>Opera</th>
-   <th>Safari</th>
-  </tr>
-  <tr>
-   <td>Basic support</td>
-   <td>4.0</td>
-   <td>{{CompatVersionUnknown}}</td>
-   <td>{{CompatGeckoDesktop("1.9.1")}}<sup>[1]</sup></td>
-   <td>10.0</td>
-   <td>10.6</td>
-   <td>4.0</td>
-  </tr>
- </tbody>
-</table>
-</div>
 
-<div id="compat-mobile">
-<table class="compat-table">
- <tbody>
-  <tr>
-   <th>Feature</th>
-   <th>Android</th>
-   <th>Edge</th>
-   <th>Firefox Mobile (Gecko)</th>
-   <th>Firefox OS</th>
-   <th>IE Mobile</th>
-   <th>Opera Mobile</th>
-   <th>Safari Mobile</th>
-  </tr>
-  <tr>
-   <td>Basic support</td>
-   <td>2.1</td>
-   <td>{{CompatVersionUnknown}}</td>
-   <td>{{CompatVersionUnknown}}</td>
-   <td>1.0.1<sup>[2]</sup></td>
-   <td>11.0<sup>[3]</sup></td>
-   <td>11.0</td>
-   <td>3.2</td>
-  </tr>
- </tbody>
-</table>
-</div>
+<p>{{Compat("html.elements.html.manifest")}}</p>
 
-<p>[1] Versions of Firefox prior to 3.5 ignore the <code>NETWORK</code> and <code>FALLBACK</code> sections of the cache manifest file.</p>
-
-<p>[2] When using AppCache to provide Firefox OS hosted apps with offline capabilities, you need to declare the AppCache manifest inside your Firefox OS manifest.webapp file's <a href="/en-US/Apps/Build/Manifest#appcache_path">appcache_path field</a>.</p>
-
-<p>[3] Reloading the page in IE Mobile will clear the application cache, so the webpage will fail to load. However, closing the page and opening via bookmark again works fine.</p>
-
-<h2 id="See_also">See also</h2>
+<p><font face="x-locale-heading-primary, zillaslab, Palatino, Palatino Linotype, x-locale-heading-secondary, serif"><span style="font-size: 37.3333px;"><strong>Consultar também</strong></span></font></p>
 
 <ul>
  <li><a href="http://www.html5rocks.com/en/tutorials/appcache/beginner/">HTML5Rocks - A Beginner's Guide to Using the Application Cache</a></li>
@@ -387,5 +339,5 @@ if(window.applicationCache.status === window.applicationCache.UPDATEREADY) {
  <li><a href="http://developer.teradata.com/blog/js186040/2011/11/html5-cache-manifest-an-off-label-usage">HTML5 Cache Manifest: An Off-label Usage</a></li>
  <li><a href="http://www.ibm.com/developerworks/web/library/wa-ffox3/">Get ready for Firefox 3.0 - A Web developer's guide to the many new features in this popular browser, especially the offline application features</a> (IBM developerWorks)</li>
  <li><a href="/en-US/docs/Application_cache_implementation_overview">Application cache implementation overview</a></li>
- <li><a href="//www.onlinewebcheck.com/check.php?adv=1">OnlineWebCheck.com - Check cache manifest file syntax</a> (Desktop app for Windows)</li>
+ <li><a href="//www.onlinewebcheck.com/check.php?adv=1">OnlineWebCheck.com - Check cache manifest file syntax</a> (Desktop app for Windows)</li>
 </ul>
