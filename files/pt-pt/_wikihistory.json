@@ -4423,12 +4423,6 @@
       "Anonymous"
     ]
   },
-  "Web/Guide/Events": {
-    "modified": "2019-03-23T22:01:48.833Z",
-    "contributors": [
-      "Anonymous"
-    ]
-  },
   "Web/Guide/Graphics": {
     "modified": "2019-03-18T21:46:51.581Z",
     "contributors": [
@@ -5185,6 +5179,12 @@
   },
   "orphaned/Web/HTML/Using_the_application_cache": {
     "modified": "2020-10-15T22:13:54.682Z",
+    "contributors": [
+      "Anonymous"
+    ]
+  },
+  "orphaned/Web/Guide/Events": {
+    "modified": "2019-03-23T22:01:48.833Z",
     "contributors": [
       "Anonymous"
     ]
