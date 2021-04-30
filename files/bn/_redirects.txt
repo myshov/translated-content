@@ -21,6 +21,8 @@
 /bn/docs/MDN/Getting_started	/bn/docs/MDN/Contribute/Getting_started
 /bn/docs/MDN/Guidelines/Style_guide	/bn/docs/MDN/Guidelines/Writing_style_guide
 /bn/docs/MDN_at_ten	/bn/docs/MDN/At_ten
+/bn/docs/Mozilla/Developer_guide	/bn/docs/orphaned/Mozilla/Developer_guide
+/bn/docs/Mozilla/Developer_guide/Source_Code	/bn/docs/orphaned/Mozilla/Developer_guide/Source_Code
 /bn/docs/Mozilla/ফায়ারফক্স	/bn/docs/Mozilla/Firefox
 /bn/docs/Mozilla/ফায়ারফক্স/রিলিজস	/bn/docs/Mozilla/Firefox/Releases
 /bn/docs/Tools/ত্রিমাত্রিক_দর্শন	/bn/docs/Tools/3D_View
