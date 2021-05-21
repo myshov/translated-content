@@ -10397,17 +10397,6 @@
       "rennan.martini"
     ]
   },
-  "Web/HTML/Preloading_content": {
-    "modified": "2020-10-15T22:14:26.980Z",
-    "contributors": [
-      "BeatrizCavallieri",
-      "w4rlooc",
-      "duduindo",
-      "philgruneich",
-      "tuliocribeiro",
-      "Expablo"
-    ]
-  },
   "Web/HTML/Quirks_Mode_and_Standards_Mode": {
     "modified": "2019-03-23T23:05:38.681Z",
     "contributors": [
@@ -16145,13 +16134,6 @@
       "caio"
     ]
   },
-  "Web/SVG/Element/color-profile": {
-    "modified": "2019-03-23T22:57:13.667Z",
-    "contributors": [
-      "Sebastianz",
-      "caio"
-    ]
-  },
   "Web/SVG/Element/defs": {
     "modified": "2019-03-23T22:58:41.965Z",
     "contributors": [
@@ -17311,6 +17293,17 @@
       "LeonardoPacheco"
     ]
   },
+  "orphaned/Web/HTML/Preloading_content": {
+    "modified": "2020-10-15T22:14:26.980Z",
+    "contributors": [
+      "BeatrizCavallieri",
+      "w4rlooc",
+      "duduindo",
+      "philgruneich",
+      "tuliocribeiro",
+      "Expablo"
+    ]
+  },
   "orphaned/Web/HTML/Using_the_application_cache": {
     "modified": "2019-03-23T23:33:12.384Z",
     "contributors": [
@@ -17358,6 +17351,13 @@
     "modified": "2020-10-15T22:29:51.823Z",
     "contributors": [
       "LuisAraujo"
+    ]
+  },
+  "orphaned/Web/SVG/Element/color-profile": {
+    "modified": "2019-03-23T22:57:13.667Z",
+    "contributors": [
+      "Sebastianz",
+      "caio"
     ]
   },
   "orphaned/Web/Security/Information_Security_Basics": {
