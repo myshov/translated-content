@@ -349,7 +349,7 @@
 /pt-BR/docs/HTML/Using_the_application_cache	/pt-BR/docs/orphaned/Web/HTML/Using_the_application_cache
 /pt-BR/docs/Hello_World_Rust	/pt-BR/docs/orphaned/Hello_World_Rust
 /pt-BR/docs/IndexedDB	/pt-BR/docs/Web/API/IndexedDB_API
-/pt-BR/docs/IndexedDB/Basic_Concepts_Behind_IndexedDB	/pt-BR/docs/Web/API/IndexedDB_API/Basic_Concepts_Behind_IndexedDB
+/pt-BR/docs/IndexedDB/Basic_Concepts_Behind_IndexedDB	/pt-BR/docs/orphaned/Web/API/IndexedDB_API/Basic_Concepts_Behind_IndexedDB
 /pt-BR/docs/IndexedDB/Usando_IndexedDB	/pt-BR/docs/Web/API/IndexedDB_API/Using_IndexedDB
 /pt-BR/docs/Instalando_Rust	/pt-BR/docs/orphaned/Instalando_Rust
 /pt-BR/docs/JSON	/pt-BR/docs/Glossary/JSON
@@ -586,6 +586,7 @@
 /pt-BR/docs/Web/API/HTMLElement/dataset	/pt-BR/docs/Web/API/HTMLOrForeignElement/dataset
 /pt-BR/docs/Web/API/HTMLElement/focus	/pt-BR/docs/Web/API/HTMLOrForeignElement/focus
 /pt-BR/docs/Web/API/History_API/Exemplo	/pt-BR/docs/Web/API/History_API/Example
+/pt-BR/docs/Web/API/IndexedDB_API/Basic_Concepts_Behind_IndexedDB	/pt-BR/docs/orphaned/Web/API/IndexedDB_API/Basic_Concepts_Behind_IndexedDB
 /pt-BR/docs/Web/API/IndexedDB_API/Usando_IndexedDB	/pt-BR/docs/Web/API/IndexedDB_API/Using_IndexedDB
 /pt-BR/docs/Web/API/Navigator.battery	/pt-BR/docs/Web/API/Navigator/battery
 /pt-BR/docs/Web/API/NavigatorID.platform	/pt-BR/docs/Web/API/NavigatorID/platform
