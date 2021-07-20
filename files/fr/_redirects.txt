@@ -3955,6 +3955,8 @@
 /fr/docs/Web/API/Worker.postMessage	/fr/docs/Web/API/Worker/postMessage
 /fr/docs/Web/API/Worker.terminate	/fr/docs/Web/API/Worker/terminate
 /fr/docs/Web/API/Worker/Functions_and_classes_available_to_workers	/fr/docs/Web/API/Web_Workers_API/Functions_and_classes_available_to_workers
+/fr/docs/Web/API/WorkerGlobalScope/close	/fr/docs/orphaned/Web/API/WorkerGlobalScope/close
+/fr/docs/Web/API/WorkerGlobalScope/onclose	/fr/docs/orphaned/Web/API/WorkerGlobalScope/onclose
 /fr/docs/Web/API/XMLHttpRequest/Utiliser_XMLHttpRequest	/fr/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest
 /fr/docs/Web/API/console.log	/fr/docs/Web/API/Console/log
 /fr/docs/Web/API/console.time	/fr/docs/Web/API/Console/time

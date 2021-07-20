@@ -22026,13 +22026,6 @@
       "chrisdavidmills"
     ]
   },
-  "Web/API/WorkerGlobalScope/close": {
-    "modified": "2020-10-15T21:36:58.427Z",
-    "contributors": [
-      "Arzak656",
-      "jean-pierre.gay"
-    ]
-  },
   "Web/API/WorkerGlobalScope/console": {
     "modified": "2020-10-15T22:26:34.613Z",
     "contributors": [
@@ -22061,13 +22054,6 @@
   },
   "Web/API/WorkerGlobalScope/navigator": {
     "modified": "2020-10-15T21:33:53.933Z",
-    "contributors": [
-      "Arzak656",
-      "jean-pierre.gay"
-    ]
-  },
-  "Web/API/WorkerGlobalScope/onclose": {
-    "modified": "2020-10-15T21:33:54.728Z",
     "contributors": [
       "Arzak656",
       "jean-pierre.gay"
@@ -44920,6 +44906,20 @@
     "modified": "2020-10-15T22:33:47.080Z",
     "contributors": [
       "Voulto"
+    ]
+  },
+  "orphaned/Web/API/WorkerGlobalScope/close": {
+    "modified": "2020-10-15T21:36:58.427Z",
+    "contributors": [
+      "Arzak656",
+      "jean-pierre.gay"
+    ]
+  },
+  "orphaned/Web/API/WorkerGlobalScope/onclose": {
+    "modified": "2020-10-15T21:33:54.728Z",
+    "contributors": [
+      "Arzak656",
+      "jean-pierre.gay"
     ]
   },
   "orphaned/Web/CSS/:-moz-ui-valid": {
