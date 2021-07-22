@@ -4109,6 +4109,10 @@
 /ja/docs/Web/API/WindowTimers/setTimeout	/ja/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout
 /ja/docs/Web/API/WorkerGlobalScope/caches	/ja/docs/Web/API/WindowOrWorkerGlobalScope/caches
 /ja/docs/Web/API/XMLHttpRequest/openRequest	/ja/docs/orphaned/Web/API/XMLHttpRequest/openRequest
+/ja/docs/Web/API/XRHandedness	/ja/docs/orphaned/Web/API/XRHandedness
+/ja/docs/Web/API/XRReferenceSpaceEventInit	/ja/docs/orphaned/Web/API/XRReferenceSpaceEventInit
+/ja/docs/Web/API/XRReferenceSpaceEventInit/referenceSpace	/ja/docs/orphaned/Web/API/XRReferenceSpaceEventInit/referenceSpace
+/ja/docs/Web/API/XRReferenceSpaceEventInit/transform	/ja/docs/orphaned/Web/API/XRReferenceSpaceEventInit/transform
 /ja/docs/Web/API/XRReferenceSpaceType	/ja/docs/orphaned/Web/API/XRReferenceSpaceType
 /ja/docs/Web/API/XRSessionMode	/ja/docs/orphaned/Web/API/XRSessionMode
 /ja/docs/Web/API/XRTargetRayMode	/ja/docs/orphaned/Web/API/XRTargetRayMode
