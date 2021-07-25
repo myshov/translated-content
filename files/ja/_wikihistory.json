@@ -13287,15 +13287,6 @@
       "ethertank"
     ]
   },
-  "Web/API/Document/tooltipNode": {
-    "modified": "2020-10-15T21:21:36.814Z",
-    "contributors": [
-      "mfuji09",
-      "fscholz",
-      "AshfaqHossain",
-      "ethertank"
-    ]
-  },
   "Web/API/Document/touchcancel_event": {
     "modified": "2020-10-15T22:15:27.879Z",
     "contributors": [
@@ -43279,6 +43270,15 @@
     "modified": "2019-03-23T22:15:41.294Z",
     "contributors": [
       "YuichiNukiyama"
+    ]
+  },
+  "orphaned/Web/API/Document/tooltipNode": {
+    "modified": "2020-10-15T21:21:36.814Z",
+    "contributors": [
+      "mfuji09",
+      "fscholz",
+      "AshfaqHossain",
+      "ethertank"
     ]
   },
   "orphaned/Web/API/DocumentOrShadowRoot": {

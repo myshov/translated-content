@@ -417,7 +417,7 @@
 /zh-CN/docs/DOM/document.readyState	/zh-CN/docs/Web/API/Document/readyState
 /zh-CN/docs/DOM/document.referrer	/zh-CN/docs/Web/API/Document/referrer
 /zh-CN/docs/DOM/document.releaseCapture	/zh-CN/docs/Web/API/Document/releaseCapture
-/zh-CN/docs/DOM/document.tooltipNode	/zh-CN/docs/Web/API/Document/tooltipNode
+/zh-CN/docs/DOM/document.tooltipNode	/zh-CN/docs/orphaned/Web/API/Document/tooltipNode
 /zh-CN/docs/DOM/document.width	/zh-CN/docs/Web/API/Document/width
 /zh-CN/docs/DOM/element	/zh-CN/docs/Web/API/element
 /zh-CN/docs/DOM/element.addEventListener	/zh-CN/docs/Web/API/EventTarget/addEventListener
@@ -1520,6 +1520,7 @@
 /zh-CN/docs/Web/API/Document/mozFullScreenEnabled	/zh-CN/docs/Web/API/Document/fullscreenEnabled
 /zh-CN/docs/Web/API/Document/onreadystatechange	/en-US/docs/Web/API/Document/readystatechange_event
 /zh-CN/docs/Web/API/Document/rouchmove_event	/zh-CN/docs/Web/API/Document/touchmove_event
+/zh-CN/docs/Web/API/Document/tooltipNode	/zh-CN/docs/orphaned/Web/API/Document/tooltipNode
 /zh-CN/docs/Web/API/DocumentOrShadowRoot	/zh-CN/docs/orphaned/Web/API/DocumentOrShadowRoot
 /zh-CN/docs/Web/API/DocumentOrShadowRoot/activeElement	/zh-CN/docs/Web/API/Document/activeElement
 /zh-CN/docs/Web/API/DocumentOrShadowRoot/elementFromPoint	/zh-CN/docs/Web/API/Document/elementFromPoint
@@ -2019,7 +2020,7 @@
 /zh-CN/docs/Web/API/document.scripts	/zh-CN/docs/Web/API/Document/scripts
 /zh-CN/docs/Web/API/document.styleSheets	/zh-CN/docs/conflicting/Web/API/DocumentOrShadowRoot/styleSheets
 /zh-CN/docs/Web/API/document.title	/zh-CN/docs/Web/API/Document/title
-/zh-CN/docs/Web/API/document.tooltipNode	/zh-CN/docs/Web/API/Document/tooltipNode
+/zh-CN/docs/Web/API/document.tooltipNode	/zh-CN/docs/orphaned/Web/API/Document/tooltipNode
 /zh-CN/docs/Web/API/document.width	/zh-CN/docs/Web/API/Document/width
 /zh-CN/docs/Web/API/document.write	/zh-CN/docs/Web/API/Document/write
 /zh-CN/docs/Web/API/document.writeln	/zh-CN/docs/Web/API/Document/writeln

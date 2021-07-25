@@ -3684,6 +3684,8 @@
 /fr/docs/Web/API/Document/defaultView/popstate_event	/fr/docs/Web/API/Window/popstate_event
 /fr/docs/Web/API/Document/defaultView/storage_event	/fr/docs/Web/API/Window/storage_event
 /fr/docs/Web/API/Document/domConfig	/fr/docs/Web/API/Document
+/fr/docs/Web/API/Document/popupNode	/fr/docs/orphaned/Web/API/Document/popupNode
+/fr/docs/Web/API/Document/tooltipNode	/fr/docs/orphaned/Web/API/Document/tooltipNode
 /fr/docs/Web/API/DocumentOrShadowRoot/activeElement	/fr/docs/Web/API/Document/activeElement
 /fr/docs/Web/API/DocumentOrShadowRoot/elementFromPoint	/fr/docs/Web/API/Document/elementFromPoint
 /fr/docs/Web/API/DocumentOrShadowRoot/elementsFromPoint	/fr/docs/Web/API/Document/elementsFromPoint
