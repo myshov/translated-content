@@ -2095,10 +2095,13 @@
 /zh-CN/docs/Web/CSS/CSS3中的关键帧	/zh-CN/docs/Web/CSS/@keyframes
 /zh-CN/docs/Web/CSS/CSSOM_View/坐标系	/zh-CN/docs/Web/CSS/CSSOM_View/Coordinate_systems
 /zh-CN/docs/Web/CSS/CSS_Background_and_Borders	/zh-CN/docs/conflicting/Web/CSS/CSS_Backgrounds_and_Borders
+/zh-CN/docs/Web/CSS/CSS_Background_and_Borders/Border-image_generator	/zh-CN/docs/Web/CSS/CSS_Backgrounds_and_Borders/Border-image_generator
+/zh-CN/docs/Web/CSS/CSS_Background_and_Borders/Border-radius_generator	/zh-CN/docs/Web/CSS/CSS_Backgrounds_and_Borders/Border-radius_generator
+/zh-CN/docs/Web/CSS/CSS_Background_and_Borders/Box-shadow_generator	/zh-CN/docs/Web/CSS/CSS_Backgrounds_and_Borders/Box-shadow_generator
 /zh-CN/docs/Web/CSS/CSS_Background_and_Borders/Using_CSS_multiple_backgrounds	/zh-CN/docs/conflicting/Web/CSS/CSS_Backgrounds_and_Borders/Using_multiple_backgrounds
-/zh-CN/docs/Web/CSS/CSS_Background_and_Borders/圆角边框发生器	/zh-CN/docs/Web/CSS/CSS_Background_and_Borders/Border-radius_generator
+/zh-CN/docs/Web/CSS/CSS_Background_and_Borders/圆角边框发生器	/zh-CN/docs/Web/CSS/CSS_Backgrounds_and_Borders/Border-radius_generator
 /zh-CN/docs/Web/CSS/CSS_Backgrounds_and_Borders/Scaling_background_images	/zh-CN/docs/Web/CSS/CSS_Backgrounds_and_Borders/Resizing_background_images
-/zh-CN/docs/Web/CSS/CSS_Box_Model/Box-shadow_generator	/zh-CN/docs/Web/CSS/CSS_Background_and_Borders/Box-shadow_generator
+/zh-CN/docs/Web/CSS/CSS_Box_Model/Box-shadow_generator	/zh-CN/docs/Web/CSS/CSS_Backgrounds_and_Borders/Box-shadow_generator
 /zh-CN/docs/Web/CSS/CSS_Colors	/zh-CN/docs/conflicting/Web/CSS/CSS_Color
 /zh-CN/docs/Web/CSS/CSS_Flexible_Box_Layout/Flexbox_的_向下_支持	/zh-CN/docs/Web/CSS/CSS_Flexible_Box_Layout/Backwards_Compatibility_of_Flexbox
 /zh-CN/docs/Web/CSS/CSS_Flexible_Box_Layout/Mixins	/zh-CN/docs/conflicting/Web/CSS/CSS_Flexible_Box_Layout/Backwards_Compatibility_of_Flexbox
@@ -2486,6 +2489,7 @@
 /zh-CN/docs/Web/HTTP/缓存_FAQ	/zh-CN/docs/Web/HTTP/Caching
 /zh-CN/docs/Web/HTTP/跨域资源共享(CORS)_	/zh-CN/docs/orphaned/Web/HTTP/跨域资源共享(CORS)_
 /zh-CN/docs/Web/HTTP/重定向	/zh-CN/docs/Web/HTTP/Redirections
+/zh-CN/docs/Web/Houdini	/zh-CN/docs/Web/Guide/Houdini
 /zh-CN/docs/Web/JavaScript	/zh-CN/docs/orphaned/Web/JavaScript
 /zh-CN/docs/Web/JavaScript/A_re-introduction_to_JavaScript	/zh-CN/docs/orphaned/Web/JavaScript/A_re-introduction_to_JavaScript
 /zh-CN/docs/Web/JavaScript/About_JavaScript	/zh-CN/docs/orphaned/Web/JavaScript/About_JavaScript
