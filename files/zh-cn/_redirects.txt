@@ -1677,6 +1677,7 @@
 /zh-CN/docs/Web/API/HTMLOrForeignElement/nonce	/zh-CN/docs/orphaned/Web/API/HTMLOrForeignElement/nonce
 /zh-CN/docs/Web/API/HTMLOrForeignElement/tabIndex	/zh-CN/docs/orphaned/Web/API/HTMLOrForeignElement/tabIndex
 /zh-CN/docs/Web/API/HTMLTableElement.deleteTHead	/zh-CN/docs/Web/API/HTMLTableElement/deleteTHead
+/zh-CN/docs/Web/API/Headers/getAll	/zh-CN/docs/conflicting/Web/API/Headers/get
 /zh-CN/docs/Web/API/IDBCursor.direction	/zh-CN/docs/Web/API/IDBCursor/direction
 /zh-CN/docs/Web/API/IDBFactory.open	/zh-CN/docs/Web/API/IDBFactory/open
 /zh-CN/docs/Web/API/IDBObjectStore.openCursor	/zh-CN/docs/Web/API/IDBObjectStore/openCursor
