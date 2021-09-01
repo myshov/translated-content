@@ -646,10 +646,14 @@
 /pt-BR/docs/Web/API/Window/ondevicelight	/pt-BR/docs/orphaned/Web/API/Window/ondevicelight
 /pt-BR/docs/Web/API/Window/onscroll	/pt-BR/docs/conflicting/Web/API/GlobalEventHandlers/onscroll
 /pt-BR/docs/Web/API/WindowBase64	/pt-BR/docs/conflicting/Web/API/WindowOrWorkerGlobalScope
-/pt-BR/docs/Web/API/WindowBase64/atob	/pt-BR/docs/Web/API/WindowOrWorkerGlobalScope/atob
+/pt-BR/docs/Web/API/WindowBase64/atob	/pt-BR/docs/Web/API/atob
+/pt-BR/docs/Web/API/WindowOrWorkerGlobalScope/atob	/pt-BR/docs/Web/API/atob
+/pt-BR/docs/Web/API/WindowOrWorkerGlobalScope/clearTimeout	/pt-BR/docs/Web/API/clearTimeout
+/pt-BR/docs/Web/API/WindowOrWorkerGlobalScope/fetch	/pt-BR/docs/Web/API/fetch
+/pt-BR/docs/Web/API/WindowOrWorkerGlobalScope/setInterval	/pt-BR/docs/Web/API/setInterval
 /pt-BR/docs/Web/API/WindowTimers	/pt-BR/docs/conflicting/Web/API/WindowOrWorkerGlobalScope_e2691f7ad05781a30c5fc5bb3b3f633a
-/pt-BR/docs/Web/API/WindowTimers.clearTimeout	/pt-BR/docs/Web/API/WindowOrWorkerGlobalScope/clearTimeout
-/pt-BR/docs/Web/API/WindowTimers/clearTimeout	/pt-BR/docs/Web/API/WindowOrWorkerGlobalScope/clearTimeout
+/pt-BR/docs/Web/API/WindowTimers.clearTimeout	/pt-BR/docs/Web/API/clearTimeout
+/pt-BR/docs/Web/API/WindowTimers/clearTimeout	/pt-BR/docs/Web/API/clearTimeout
 /pt-BR/docs/Web/API/XMLHttpRequest/Requisicoes_sincronas_e_assincronas	/pt-BR/docs/Web/API/XMLHttpRequest/Synchronous_and_Asynchronous_Requests
 /pt-BR/docs/Web/API/XMLHttpRequest/Usando_XMLHttpRequest	/pt-BR/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest
 /pt-BR/docs/Web/API/document.getElementById	/pt-BR/docs/Web/API/Document/getElementById
