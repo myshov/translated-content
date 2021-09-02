@@ -11662,12 +11662,6 @@
       "Derhks"
     ]
   },
-  "Web/CSS/Tools": {
-    "modified": "2019-03-23T22:28:04.142Z",
-    "contributors": [
-      "arturoblack"
-    ]
-  },
   "Web/CSS/Tutorials": {
     "modified": "2019-03-23T22:52:34.225Z",
     "contributors": [
@@ -17725,6 +17719,12 @@
       "maedca",
       "ethertank",
       "Jeremie"
+    ]
+  },
+  "conflicting/Web/CSS": {
+    "modified": "2019-03-23T22:28:04.142Z",
+    "contributors": [
+      "arturoblack"
     ]
   },
   "conflicting/Web/CSS/::placeholder": {

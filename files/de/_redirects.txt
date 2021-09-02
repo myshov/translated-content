@@ -639,6 +639,7 @@
 /de/docs/Web/CSS/Pseudoklasse	/de/docs/Web/CSS/Pseudo-classes
 /de/docs/Web/CSS/Referenz	/de/docs/Web/CSS/Reference
 /de/docs/Web/CSS/Spezifität	/de/docs/Web/CSS/Specificity
+/de/docs/Web/CSS/Tools	/de/docs/conflicting/Web/CSS
 /de/docs/Web/CSS/Tools/Cubic_Bezier_Generator	/de/docs/orphaned/Web/CSS/Tools/Cubic_Bezier_Generator
 /de/docs/Web/CSS/Vererbung	/de/docs/Web/CSS/inheritance
 /de/docs/Web/CSS/Wertdefinitionssyntax	/de/docs/Web/CSS/Value_definition_syntax
