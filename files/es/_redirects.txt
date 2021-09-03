@@ -2066,6 +2066,7 @@
 /es/docs/Web/CSS/transform-function/translateY	/es/docs/Web/CSS/transform-function/translateY()
 /es/docs/Web/CSS/transform-function/translateZ	/es/docs/Web/CSS/transform-function/translateZ()
 /es/docs/Web/CSS/var	/es/docs/Web/CSS/var()
+/es/docs/Web/Demos_of_open_web_technologies	/es/docs/Web/Demos
 /es/docs/Web/Events/DOMContentLoaded	/es/docs/Web/API/Window/DOMContentLoaded_event
 /es/docs/Web/Events/abort	/es/docs/Web/API/HTMLMediaElement/abort_event
 /es/docs/Web/Events/animationend	/es/docs/Web/API/HTMLElement/animationend_event
