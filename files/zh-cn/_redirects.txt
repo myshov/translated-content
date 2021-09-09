@@ -1479,6 +1479,7 @@
 /zh-CN/docs/Web/API/Body/formData	/zh-CN/docs/orphaned/Web/API/Body/formData
 /zh-CN/docs/Web/API/Body/json	/zh-CN/docs/orphaned/Web/API/Body/json
 /zh-CN/docs/Web/API/Body/text	/zh-CN/docs/orphaned/Web/API/Body/text
+/zh-CN/docs/Web/API/ByteString	/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String
 /zh-CN/docs/Web/API/CSSMatrix	/zh-CN/docs/conflicting/Web/API/DOMMatrix
 /zh-CN/docs/Web/API/CSSStyleSheet.insertRule	/zh-CN/docs/Web/API/CSSStyleSheet/insertRule
 /zh-CN/docs/Web/API/CSS分页规则	/zh-CN/docs/Web/API/CSSPageRule
@@ -1685,9 +1686,11 @@
 /zh-CN/docs/Web/API/IndexedDB_API/Basic_Concepts_Behind_IndexedDB	/zh-CN/docs/orphaned/Web/API/IndexedDB_API/Basic_Concepts_Behind_IndexedDB
 /zh-CN/docs/Web/API/IndexedDB_API/IDBObjectStore	/zh-CN/docs/Web/API/IDBObjectStore
 /zh-CN/docs/Web/API/Intersection_Observer_API/点观察者API的时序元素可见性	/zh-CN/docs/Web/API/Intersection_Observer_API/Timing_element_visibility
+/zh-CN/docs/Web/API/KeyboardEvent/which	/zh-CN/docs/Web/API/UIEvent/which
 /zh-CN/docs/Web/API/Location.replace	/zh-CN/docs/Web/API/Location/replace
 /zh-CN/docs/Web/API/MSSelection	/zh-CN/docs/orphaned/Web/API/MSSelection
 /zh-CN/docs/Web/API/MediaStream.addTrack	/zh-CN/docs/Web/API/MediaStream/addTrack
+/zh-CN/docs/Web/API/MouseEvent/which	/zh-CN/docs/conflicting/Web/API/UIEvent/which
 /zh-CN/docs/Web/API/NameList	/zh-CN/docs/orphaned/Web/API/NameList
 /zh-CN/docs/Web/API/Navigator.battery	/zh-CN/docs/Web/API/Navigator/battery
 /zh-CN/docs/Web/API/Navigator.buildID	/zh-CN/docs/Web/API/Navigator/buildID
@@ -3204,7 +3207,6 @@
 /zh-CN/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer/byteLength	/zh-CN/docs/orphaned/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer/byteLength
 /zh-CN/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer/prototype	/zh-CN/docs/conflicting/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer
 /zh-CN/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer/slice	/zh-CN/docs/orphaned/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer/slice
-/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String	/zh-CN/docs/orphaned/Web/JavaScript/Reference/Global_Objects/String
 /zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/@@iterator	/zh-CN/docs/orphaned/Web/JavaScript/Reference/Global_Objects/String/@@iterator
 /zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/Trim	/zh-CN/docs/orphaned/Web/JavaScript/Reference/Global_Objects/String/Trim
 /zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/TrimLeft	/zh-CN/docs/orphaned/Web/JavaScript/Reference/Global_Objects/String/trimStart
