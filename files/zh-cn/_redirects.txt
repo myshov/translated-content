@@ -1467,6 +1467,7 @@
 /zh-CN/docs/Web/API/AudioContext/sampleRate	/zh-CN/docs/Web/API/BaseAudioContext/sampleRate
 /zh-CN/docs/Web/API/AudioContext/state	/zh-CN/docs/Web/API/BaseAudioContext/state
 /zh-CN/docs/Web/API/AudioNode/connect(AudioParam)	/zh-CN/docs/orphaned/Web/API/AudioNode/connect(AudioParam)
+/zh-CN/docs/Web/API/AudioNodeOptions	/zh-CN/docs/conflicting/Web/API/AudioNode
 /zh-CN/docs/Web/API/Beacon_API/Using_the_Beacon_API	/zh-CN/docs/conflicting/Web/API/Beacon_API
 /zh-CN/docs/Web/API/Blob.size	/zh-CN/docs/Web/API/Blob/size
 /zh-CN/docs/Web/API/Blob.slice	/zh-CN/docs/Web/API/Blob/slice
