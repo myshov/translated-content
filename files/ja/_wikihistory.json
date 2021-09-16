@@ -14746,24 +14746,6 @@
       "souta"
     ]
   },
-  "Web/API/File/fileName": {
-    "modified": "2020-09-25T16:45:23.436Z",
-    "contributors": [
-      "silverskyvicto",
-      "mfuji09",
-      "fscholz",
-      "ethertank"
-    ]
-  },
-  "Web/API/File/fileSize": {
-    "modified": "2020-09-25T16:46:05.461Z",
-    "contributors": [
-      "silverskyvicto",
-      "mfuji09",
-      "fscholz",
-      "ethertank"
-    ]
-  },
   "Web/API/File/getAsBinary": {
     "modified": "2019-11-18T15:13:21.722Z",
     "contributors": [
@@ -39743,6 +39725,15 @@
       "dextra"
     ]
   },
+  "conflicting/Web/API/Blob/size": {
+    "modified": "2020-09-25T16:46:05.461Z",
+    "contributors": [
+      "silverskyvicto",
+      "mfuji09",
+      "fscholz",
+      "ethertank"
+    ]
+  },
   "conflicting/Web/API/CSS_Object_Model/Determining_the_dimensions_of_elements": {
     "modified": "2019-03-18T20:59:05.112Z",
     "contributors": [
@@ -39892,6 +39883,15 @@
     "modified": "2020-11-23T04:18:54.717Z",
     "contributors": [
       "segayuu"
+    ]
+  },
+  "conflicting/Web/API/File/name": {
+    "modified": "2020-09-25T16:45:23.436Z",
+    "contributors": [
+      "silverskyvicto",
+      "mfuji09",
+      "fscholz",
+      "ethertank"
     ]
   },
   "conflicting/Web/API/FormData/Using_FormData_Objects": {

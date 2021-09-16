@@ -212,8 +212,8 @@
 /de/docs/Creating_a_Skin_for_Firefox:contents.rdf	/de/docs/Theme_erstellen/contents.rdf
 /de/docs/Creating_a_Skin_for_Firefox:install.rdf	/de/docs/Theme_erstellen/install.rdf
 /de/docs/DOM	/de/docs/Web/API/Document_Object_Model
-/de/docs/DOM/File.fileName	/de/docs/Web/API/File/fileName
-/de/docs/DOM/File.fileSize	/de/docs/Web/API/File/fileSize
+/de/docs/DOM/File.fileName	/de/docs/conflicting/Web/API/File/name
+/de/docs/DOM/File.fileSize	/de/docs/Web/API/Blob/size
 /de/docs/DOM/File.getAsText	/de/docs/Web/API/File/getAsText
 /de/docs/DOM/File.name	/de/docs/Web/API/File/name
 /de/docs/DOM/Node	/de/docs/Web/API/Node
@@ -508,6 +508,8 @@
 /de/docs/Web/API/Element.querySelector	/de/docs/Web/API/Element/querySelector
 /de/docs/Web/API/File/Typ	/de/docs/Web/API/File/type
 /de/docs/Web/API/File/Zugriff_auf_Dateien_von_Webapplikationen	/de/docs/Web/API/File/Using_files_from_web_applications
+/de/docs/Web/API/File/fileName	/de/docs/conflicting/Web/API/File/name
+/de/docs/Web/API/File/fileSize	/de/docs/Web/API/Blob/size
 /de/docs/Web/API/FullscreenOptions	/de/docs/orphaned/Web/API/FullscreenOptions
 /de/docs/Web/API/IndexedDB_API/Basic_Concepts_Behind_IndexedDB	/de/docs/orphaned/Web/API/IndexedDB_API/Basic_Concepts_Behind_IndexedDB
 /de/docs/Web/API/IndexedDB_API/Grundkonzepte_hinter_IndexedDB	/de/docs/orphaned/Web/API/IndexedDB_API/Basic_Concepts_Behind_IndexedDB

@@ -434,6 +434,7 @@
 /ru/docs/Web/API/EventTarget.addEventListener	/ru/docs/Web/API/EventTarget/addEventListener
 /ru/docs/Web/API/EventTarget/attachEvent	/ru/docs/conflicting/Web/API/EventTarget/addEventListener
 /ru/docs/Web/API/EventTarget/detachEvent	/ru/docs/conflicting/Web/API/EventTarget/removeEventListener
+/ru/docs/Web/API/File/fileName	/ru/docs/conflicting/Web/API/File/name
 /ru/docs/Web/API/File_and_Directory_Entries_API/Введение	/ru/docs/Web/API/File_and_Directory_Entries_API/Introduction
 /ru/docs/Web/API/Geolocation/Using_geolocation	/ru/docs/Web/API/Geolocation_API
 /ru/docs/Web/API/Geolocation/Using_geolocation/Using_the_Geolocation_API	/ru/docs/Web/API/Geolocation_API/Using_the_Geolocation_API
